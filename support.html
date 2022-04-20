@@ -70,6 +70,21 @@ nav a:hover::before{
 nav a:hover{
     color: white;
 }
+.container{
+    margin: 0 0 0 150px;
+    color: white;
+    padding: 30px 0 0 50px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    float: right;
+    width: 1100px;
+}
+.container p{
+   font-size: 18px; 
+}
+#google-form{
+    margin: 30px 0 0 200px;
+}
 </style>
 <body>
     <header>
@@ -79,14 +94,30 @@ nav a:hover{
             </div>
             
             <div class="nav-links">
-            <ul>
-               <li><a href="index.html">Home</a></li>
-               <li><a href="index.html#faq">FAQs</a></li>
-               <li><a href="support.html">Support</a></li>
-               <li><a href="join.html">Join Us</a></li>
-            </ul>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#faq">FAQs</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="join.html">Join Us</a></li>
+                </ul>
             </div>
         </nav>
     </header>
+    <div class="container">
+        <div class="content">
+            <h1>Support</h1>
+            <p>If you have any issues with the server, please contact us through the <a href="support.html#google-form">form</a>. We will get back to you as soon as possible.
+            Or you can contact us through our discord server by creating a ticket.
+            <a href="join.html">Click here to join our discord server</a> <br>
+            <b>HOW TO CREATE TICKET:</b> <br>
+            Step1: Verify your discord account in game by following the steps in the discord server. <br>
+            Step2: Go to <a href="https://discord.com/channels/923817461550297108/923817461877456905" target="_blank">#ticket-here</a> and follow the steps given there. <br>
+            Step3: Once you have created a ticket, describe the issue, the staff will contact you shortly.
+            </p>
+        </div>
+        <div id="google-form">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeYNFUNhdbHjowvvhdJT0VBzI1A5WqkjqO3U2gD5Um_-lodYQ/viewform?embedded=true" width="640" height="1287" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+    </div>
 </body>
 </html>
