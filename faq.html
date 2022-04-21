@@ -71,6 +71,14 @@ nav a:hover::before{
 nav a:hover{
     color: white;
 }
+.top-btn{
+    position: fixed;
+    bottom: 100px;
+    right: 130px;
+    width: 10px;
+    height: 0px;
+    border-radius: 50%;
+}
 </style>
 <body>
     <header>
@@ -91,8 +99,8 @@ nav a:hover{
     </header>
     <div class="container">
         <div class="content">
-            <div id="faq">
-                <h3>FAQs</h3>
+            <div id="faq" >
+                <h3 id="top">FAQs</h3>
                 <p> <h4>Is the server on offline mode? Can I join with cracked?</h4> <br>
                     Yes you can join from cracked accounts. However keep it in mind that we do not support piracy! <br><br>
                     <h4>Which version is the server on?</h4> <br>
@@ -140,6 +148,9 @@ nav a:hover{
                     You have to register and login for the security of your own account otherwise people can use your account and waste hours of your grind in seconds.
                 </p>
             </div>
+        </div>
+        <div class="top-btn">
+            <a href="faq.html#top"><img src="up-arrow-img.png" alt="go to top" height="50px"></a>
         </div>
     </div>
 </body>
