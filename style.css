@@ -68,7 +68,6 @@ nav a:hover{
     position: absolute;
     float: right;
     width: 1100px;
-    pointer-events: none;
 }
 
 .top-btn{
