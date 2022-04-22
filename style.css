@@ -3,7 +3,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-image: url(https://cdn.discordapp.com/attachments/727761133544538132/966685794305732678/unknown.png);
+    background-image: url("background.jpg");
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
