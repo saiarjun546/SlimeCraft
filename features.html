@@ -14,11 +14,20 @@
     scroll-behavior: smooth;
 }
 body{
-    background-image: url(background.png);
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    color: white;
+    background: linear-gradient(to right, #00F260, #0575E6);
+    background-size: 400% 400%;
+    animation: animate-background 10s ease-in-out infinite;
+}
+@keyframes animate-background {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 nav{
     color: white;
