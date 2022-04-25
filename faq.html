@@ -13,19 +13,24 @@
 html{
     scroll-behavior: smooth;
 }
-body{
-    background: linear-gradient(to right, #00F260, #0575E6);
+.bg{
+    background-image: linear-gradient(to right, #00F260, #0575E6);
+    animation: animate-bg 10s infinite ease-in-out;
     background-size: 400% 400%;
-    animation: animate-background 10s ease-in-out infinite;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
-@keyframes animate-background {
-    0% {
+@keyframes animate-bg{
+    0%{
         background-position: 0% 50%;
     }
-    50% {
-        background-position: 100% 50%;
+    50%{
+        background-position:100% 50%;
     }
-    100% {
+    100%{
         background-position: 0% 50%;
     }
 }
@@ -99,6 +104,7 @@ nav a:hover{
 }
 </style>
 <body>
+    <div class="bg"></div>
     <header>
         <nav>
             <div class="icon">
