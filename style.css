@@ -1,9 +1,9 @@
-
+/* common stuff */
 html{
     scroll-behavior: smooth;
 }
 .bg{
-    background-image: linear-gradient(to right, #00F260, #0575E6);
+    background-image: linear-gradient(to right, #000000 0%, #414141 74%);
     animation: animate-bg 10s infinite ease-in-out;
     background-size: 400% 400%;
     height: 100%;
@@ -79,7 +79,7 @@ nav a:hover{
     margin: 0 0 0 150px;
     color: white;
     padding: 40px 0 0 50px;
-    background-color: rgba(0,0,0,0.5);
+    /* background-color: rgba(0,0,0,0.5); */
     position: absolute;
     float: right;
     width: 1100px;
@@ -93,11 +93,101 @@ nav a:hover{
     height: 0px;
     border-radius: 50%;
 }
-@media screen and (max-width: 1200px){
-        nav{
-            color: white;
-            position: absolute;
-            padding: 0 0 0 10px;
-            float: left;
-        }
-    }
+
+/* join.html */
+
+.discord-invite{
+    margin: 100px 0 0 350px;
+    padding: 50px 30px;
+    align-content: center;
+    text-align: center;
+    background-color: 	#282b30;
+    float: right;
+    position: absolute;
+    border-radius: 10px;
+    pointer-events: none;
+}
+.server-icon img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+.invite-text p{
+    color: #72757b;
+    padding: 10px 0 0 0;
+}
+.server-name{
+    font-size: 20px;
+    margin-top: -10px;
+    color: white;
+}
+.bubbles{
+    color:#72757b;
+}
+.online-bubble{
+    background-color: #1e2124;
+    border-radius: 20px;
+    display: block;
+    padding: 2px 15px;
+    margin: 0 0 0 80px;
+    float: left;
+}
+.online-bubble img{
+    height: 10px;
+    width: 10px;
+    margin: 0 5px 4px 0;
+}
+.member-bubble{
+    background-color: #1e2124;
+    border-radius: 20px;
+    display: block;
+    padding: 2px 15px;
+    margin: 0 0 0 10px;
+    float: left;
+}
+.member-bubble img{
+    height: 10px;
+    width: 10px;
+    margin: 0 5px 4px 0;
+}
+#invite-btn{
+    display:inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 150px;
+    border-radius: 5px;
+    background-color: #7289da;
+    font-size: 19px;
+    margin-top: 30px;
+    pointer-events: all;
+    border-width: 0px;
+}
+#invite-btn:hover{
+    background-color: #576ec0;
+}
+#invite-btn:active{
+    background-color: #35478b;
+}
+
+/* features.html */
+
+/* support.html */
+
+.container p{
+    font-size: 19px; 
+ }
+ #google-form{
+     margin: 200px 0 0 200px;
+ }
+ .step-images{
+     margin: 50px 0 50px 200px;
+ }
+ .server-pic{
+     width: 1000px;
+     height: auto;
+     margin: 50px 0;
+     border-radius: 10px;
+ }
+
+ /* wiki.html */
+
