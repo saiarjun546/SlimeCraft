@@ -20,7 +20,7 @@
     <header class="sticky-top">
         <div class="header">
             <h3>Lorem ipsum dolor sit.</h3>
-            <h3>Lorem ipsum dolor sit.</h3>
+            <!-- <h3>Lorem ipsum dolor sit.</h3> -->
         </div>
         <nav class="navbar navbar-expand-lg bg-transparent sticky-top" id="navbar">
             <div class="container-fluid">
@@ -72,24 +72,5 @@
         </div>
     </div> 
 </body>
-<script>
-    window.onscroll = function() {scroll()};
-
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-
-    function scroll() {
-        if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-            document.getElementById('top').style.marginTop = "75px";
-        }
-        else {
-            navbar.classList.remove("sticky");
-            document.getElementById('top').style.removeProperty('margin-top');
-        }
-    }
-    function contentscroll() {
-        
-    }
-</script>
+<script src="script.js"></script>
 </html>
